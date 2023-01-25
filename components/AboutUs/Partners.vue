@@ -10,18 +10,22 @@
             <div class="row">
                 <div class="col-12">
                     <VueSlickCarousel v-bind='settings'>
+                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-2.png">
+                          <img src="/images/gallery/image-2.png" alt="gallery img" height="75">
+                        </a>
+                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-3.png">
+                          <img src="/images/gallery/image-3.png" alt="gallery img" height="75">
+                        </a>
+                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-12.png">
+                          <img src="/images/gallery/image-12.png" alt="gallery img" height="75">
+                        </a>
+                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-13.png">
+                          <img src="/images/gallery/image-13.png" alt="gallery img" height="75">
+                        </a>
                         <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-14.png">
                             <img src="/images/gallery/image-14.png" alt="gallery img" height="75">
                         </a>
-                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-15.png">
-                            <img src="/images/gallery/image-15.png" alt="gallery img" height="75">
-                        </a>
-                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-16.png">
-                            <img src="/images/gallery/image-16.png" alt="gallery img" height="75">
-                        </a>
-                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-17.png">
-                            <img src="/images/gallery/image-17.png" alt="gallery img" height="75">
-                        </a>
+
                         <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-18.png">
                             <img src="/images/gallery/image-18.png" alt="gallery img" height="75">
                         </a>

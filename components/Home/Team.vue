@@ -7,10 +7,8 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                     <div class="heading text-center mb-40">
-                        <h3 class="heading__title">Meet Our Doctors</h3>
-                        <p class="heading__desc">Our administration and support staff all have exceptional people skills
-                            and
-                            trained to assist you with all medical enquiries.
+                        <h3 class="heading__title">Hear From Experts</h3>
+                        <p class="heading__desc">Here's what the dentists have to say about Dr. Floss
                         </p>
                     </div><!-- /.heading -->
                 </div><!-- /.col-lg-6 -->
@@ -19,80 +17,36 @@
                 <div class="col-12">
                     <div class="row">
                         <!-- Member #1 -->
+                      <div class="col-md-2"></div>
                         <div class="member col-md-4">
                             <div class="member__img">
                                 <img src="/images/team/1.jpg" alt="member img">
-                                <ul class="social-icons list-unstyled mb-0">
-                                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                                </ul><!-- /.social-icons -->
+<!--                                <ul class="social-icons list-unstyled mb-0">-->
+<!--                                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>-->
+<!--                                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>-->
+<!--                                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>-->
+<!--                                </ul>&lt;!&ndash; /.social-icons &ndash;&gt;-->
                             </div><!-- /.member-img -->
                             <div class="member__info">
-                                <h5 class="member__name"><a href="#">Mike Dooley</a></h5>
-                                <p class="member__job">Cardiology Specialist</p>
-                                <p class="member__desc">Muldoone obtained his undergraduate degree in Biomedical
-                                    Engineering at Tulane
-                                    University prior to attending St George's University School of Medicine</p>
-                                <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                                    <a href="#"
-                                        class="btn btn__secondary btn__link btn__rounded">
-                                        <span>Read More</span>
-                                        <i class="icon-arrow-right"></i>
-                                    </a>
-                                </div>
+                                <h5 class="member__name"><a href="#">Dr. Zakia Anjum Akhtar</a></h5>
+<!--                                <p class="member__job">Cardiology Specialist</p>-->
+                                <p class="member__desc">Flossing is difficult for most patients.  DR. FLOSS is a great alternative for those patients that have a hard time time using regular string floss.  Being that you "floss" all teeth at once, there is little to no bacteria transfer from site to site in comparison to traditional dental picks.  And it's definitely alot less time consuming.</p>
+
                             </div><!-- /.member-info -->
                         </div><!-- /.member -->
                         <!-- Member #2 -->
                         <div class="member col-md-4">
                             <div class="member__img">
                                 <img src="/images/team/2.jpg" alt="member img">
-                                <ul class="social-icons list-unstyled mb-0">
-                                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                                </ul><!-- /.social-icons -->
                             </div><!-- /.member-img -->
                             <div class="member__info">
-                                <h5 class="member__name"><a href="#">Dermatologists</a></h5>
-                                <p class="member__job">Cardiology Specialist</p>
-                                <p class="member__desc">Brian specializes in treating skin, hair, nail, and mucous
-                                    membrane. He also
-                                    address cosmetic issues, helping to revitalize the appearance of the skin</p>
-                                <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                                    <a href="#"
-                                        class="btn btn__secondary btn__link btn__rounded">
-                                        <span>Read More</span>
-                                        <i class="icon-arrow-right"></i>
-                                    </a>
-                                </div>
+                                <h5 class="member__name"><a href="#">Dr. Rashid Mahmood</a></h5>
+                                <p class="member__job">BDS Dental Surgeon & Orthodontist</p>
+                                <p class="member__desc">Dr. Floss will indeed be a revolutionary replacement of conventional flossing, its unique and innovative design will be a choice for those who want quick and easy way to maintain their oral hygiene.</p>
                             </div><!-- /.member-info -->
                         </div><!-- /.member -->
                         <!-- Member #3 -->
-                        <div class="member col-md-4">
-                            <div class="member__img">
-                                <img src="/images/team/3.jpg" alt="member img">
-                                <ul class="social-icons list-unstyled mb-0">
-                                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                                </ul><!-- /.social-icons -->
-                            </div><!-- /.member-img -->
-                            <div class="member__info">
-                                <h5 class="member__name"><a href="#">Maria Andaloro</a></h5>
-                                <p class="member__job">Pediatrician</p>
-                                <p class="member__desc">Andaloro graduated from medical school and completed 3 years
-                                    residency program
-                                    in pediatrics. She passed rigorous exams by the American Board of Pediatrics.</p>
-                                <div class="mt-20 d-flex flex-wrap justify-content-between align-items-center">
-                                    <a href="#"
-                                        class="btn btn__secondary btn__link btn__rounded">
-                                        <span>Read More</span>
-                                        <i class="icon-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div><!-- /.member-info -->
-                        </div><!-- /.member -->
+                      <div class="col-md-2"></div>
                     </div><!-- /.carousel -->
                 </div><!-- /.col-12 -->
             </div><!-- /.row -->

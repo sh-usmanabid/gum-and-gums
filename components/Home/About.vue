@@ -26,7 +26,7 @@
                 </div><!-- /.col-lg-6 -->
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="video-banner">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wl-hrUx5kyk"
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Wl-hrUx5kyk"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>

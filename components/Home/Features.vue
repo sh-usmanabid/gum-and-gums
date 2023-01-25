@@ -16,80 +16,71 @@
                                 <div class="feature-item">
                                     <div class="feature__content">
                                         <div class="feature__icon">
-                                            <i class="icon-heart"></i>
+<!--                                            <i class="icon-heart"></i>-->
+                                          <img src="/images/features/1.png"/>
                                         </div>
                                         <span class="feature__number">01</span>
                                         <h4 class="feature__title">Eliminates Incorrect user Techniques</h4>
                                         <p class="feature__desc">Avoid common mistakes and improve your skills with our
                                             training program.</p>
                                     </div><!-- /.feature__content -->
-                                    <a href="#" class="btn__link">
-                                        <i class="icon-arrow-right icon-outlined"></i>
-                                    </a>
+
                                 </div><!-- /.feature-item -->
                             </div><!-- /.col-12 -->
                             <div class="col-12">
                                 <div class="feature-item">
                                     <div class="feature__content">
                                         <div class="feature__icon">
-                                            <i class="icon-doctor"></i>
+                                          <img src="/images/features/1.png"/>
                                         </div>
                                         <span class="feature__number">02</span>
                                         <h4 class="feature__title">Ergonomic Design</h4>
                                         <p class="feature__desc">Experience comfort and ease with our ergonomically
                                             designed product.</p>
                                     </div><!-- /.feature__content -->
-                                    <a href="#" class="btn__link">
-                                        <i class="icon-arrow-right icon-outlined"></i>
-                                    </a>
+
                                 </div><!-- /.feature-item -->
                             </div><!-- /.col-12 -->
                             <div class="col-12">
                                 <div class="feature-item">
                                     <div class="feature__content">
                                         <div class="feature__icon">
-                                            <i class="icon-hospital"></i>
+                                          <img src="/images/features/1.png"/>
                                         </div>
                                         <span class="feature__number">03</span>
                                         <h4 class="feature__title">Fast Cleaning</h4>
                                         <p class="feature__desc">Quickly and easily remove plaque with our fast-acting
                                             floss.</p>
                                     </div><!-- /.feature__content -->
-                                    <a href="#" class="btn__link">
-                                        <i class="icon-arrow-right icon-outlined"></i>
-                                    </a>
+
                                 </div><!-- /.feature-item -->
                             </div><!-- /.col-12 -->
                             <div class="col-12">
                                 <div class="feature-item">
                                     <div class="feature__content">
                                         <div class="feature__icon">
-                                            <i class="icon-expenses"></i>
+                                          <img src="/images/features/1.png"/>
                                         </div>
                                         <span class="feature__number">04</span>
                                         <h4 class="feature__title">Eco-Friendly Packaging</h4>
                                         <p class="feature__desc">Reduce your environmental impact with our eco-friendly
                                             packaging options.</p>
                                     </div><!-- /.feature__content -->
-                                    <a href="#" class="btn__link">
-                                        <i class="icon-arrow-right icon-outlined"></i>
-                                    </a>
+
                                 </div><!-- /.feature-item -->
                             </div><!-- /.col-12 -->
                             <div class="col-12">
                                 <div class="feature-item">
                                     <div class="feature__content">
                                         <div class="feature__icon">
-                                            <i class="icon-drugs"></i>
+                                          <img src="/images/features/1.png"/>
                                         </div>
                                         <span class="feature__number">05</span>
                                         <h4 class="feature__title">Accessible For All</h4>
                                         <p class="feature__desc">Our product is designed for everyone, no matter your
                                             ability.</p>
                                     </div><!-- /.feature__content -->
-                                    <a href="#" class="btn__link">
-                                        <i class="icon-arrow-right icon-outlined"></i>
-                                    </a>
+
                                 </div><!-- /.feature-item -->
                             </div><!-- /.col-12 -->
                         </VueSlickCarousel><!-- /.carousel -->

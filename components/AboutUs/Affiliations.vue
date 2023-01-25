@@ -5,8 +5,9 @@
     <section class="gallery pt-90 pb-60">
         <div class="heading text-center mb-40">
             <h3 class="heading__title">Accolades & Affiliations</h3>
-            <p class="heading__desc">Startup Montclair Pitch Contest 1st 2020.<br />TIE UNIVERSITY: Best Startup Idea
-                Award 2021, 3rd Place 2022.
+            <p class="heading__desc">1st place Winner of 2020 Startup Montclair State University Pitch Competition
+              <br />TIE UNIVERSITY: Best Startup Idea
+                Award 2021, 3rd Place 2022.<br>2nd place at a Statewide Collegiate competition by UPitch Nokia Bell Labs
             </p>
         </div><!-- /.heading -->
         <div class="container">
@@ -16,12 +17,7 @@
                         <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-1.png">
                             <img src="/images/gallery/image-1.png" alt="gallery img" height="75">
                         </a>
-                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-2.png">
-                            <img src="/images/gallery/image-2.png" alt="gallery img" height="75">
-                        </a>
-                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-3.png">
-                            <img src="/images/gallery/image-3.png" alt="gallery img" height="75">
-                        </a>
+
                         <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-4.png">
                             <img src="/images/gallery/image-4.png" alt="gallery img" height="75">
                         </a>
@@ -46,12 +42,16 @@
                         <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-11.png">
                             <img src="/images/gallery/image-11.png" alt="gallery img" height="75">
                         </a>
-                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-12.png">
-                            <img src="/images/gallery/image-12.png" alt="gallery img" height="75">
-                        </a>
-                        <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-13.png">
-                            <img src="/images/gallery/image-13.png" alt="gallery img" height="75">
-                        </a>
+                      <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-15.png">
+                        <img src="/images/gallery/image-15.png" alt="gallery img" height="75">
+                      </a>
+                      <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-16.png">
+                        <img src="/images/gallery/image-16.png" alt="gallery img" height="75">
+                      </a>
+                      <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-17.png">
+                        <img src="/images/gallery/image-17.png" alt="gallery img" height="75">
+                      </a>
+
                     </VueSlickCarousel><!-- /.carousel -->
                 </div><!-- /.col-xl-5 -->
             </div><!-- /.row -->

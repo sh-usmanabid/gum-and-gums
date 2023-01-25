@@ -114,13 +114,13 @@ $(function () {
   // })
 
   /* ==========   Add active class to accordions   ========== */
-  $('.accordion__header').on('click', function () {
-    $(this).parent('.accordion-item').toggleClass('opened')
-    $(this).parent('.accordion-item').siblings().removeClass('opened')
-  })
-  $('.accordion__title').on('click', function (e) {
-    e.preventDefault()
-  })
+  // $('.accordion__header').on('click', function () {
+  //   $(this).parent('.accordion-item').toggleClass('opened')
+  //   $(this).parent('.accordion-item').siblings().removeClass('opened')
+  // })
+  // $('.accordion__title').on('click', function (e) {
+  //   e.preventDefault()
+  // })
 
   /* ==========  Open and Close Popup   ========== */
   // open Mini Popup

@@ -11,7 +11,7 @@
                         <div class="col-sm-12 col-md-8 col-lg-6 col-xl-6">
                             <div class="slide__content">
                                 <h2 class="slide__title" style="color:white;">World's first device that flosses all of
-                                    your theet at once.</h2>
+                                    your teeth at once.</h2>
                                 <p class="slide__desc" style="color:white;">Dr. Floss is the world's first one size fits
                                     all floss solution which carries the mission of making flossing easy.</p>
                             </div><!-- /.slide-content -->

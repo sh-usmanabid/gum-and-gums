@@ -2,7 +2,7 @@
     <!-- ======================
         Features
     ========================= -->
-    <section class="features-layout1 pt-130 mt--90">
+    <section class="features-layout2 pt-130">
         <div class="bg-img"><img src="/images/backgrounds/1.jpg" alt="background"></div>
         <div class="container">
             <div class="heading_layout2">
@@ -11,78 +11,47 @@
             <div class="row">
                 <div class="col-12">
                     <div class="carousel-container mt-90">
-                        <VueSlickCarousel v-bind='settings'>
-                            <div class="col-12">
-                                <div class="feature-item">
-                                    <div class="feature__content">
-                                        <div class="feature__icon">
-<!--                                            <i class="icon-heart"></i>-->
-                                          <img src="/images/features/1.png"/>
-                                        </div>
-                                        <span class="feature__number">01</span>
-                                        <h4 class="feature__title">Eliminates Incorrect user Techniques</h4>
-                                        <p class="feature__desc">Avoid common mistakes and improve your skills with our
-                                            training program.</p>
-                                    </div><!-- /.feature__content -->
-
-                                </div><!-- /.feature-item -->
-                            </div><!-- /.col-12 -->
-                            <div class="col-12">
-                                <div class="feature-item">
-                                    <div class="feature__content">
-                                        <div class="feature__icon">
-                                          <img src="/images/features/1.png"/>
-                                        </div>
-                                        <span class="feature__number">02</span>
-                                        <h4 class="feature__title">Ergonomic Design</h4>
-                                        <p class="feature__desc">Experience comfort and ease with our ergonomically
-                                            designed product.</p>
-                                    </div><!-- /.feature__content -->
-
-                                </div><!-- /.feature-item -->
-                            </div><!-- /.col-12 -->
-                            <div class="col-12">
-                                <div class="feature-item">
-                                    <div class="feature__content">
-                                        <div class="feature__icon">
-                                          <img src="/images/features/1.png"/>
-                                        </div>
-                                        <span class="feature__number">03</span>
-                                        <h4 class="feature__title">Fast Cleaning</h4>
-                                        <p class="feature__desc">Quickly and easily remove plaque with our fast-acting
-                                            floss.</p>
-                                    </div><!-- /.feature__content -->
-
-                                </div><!-- /.feature-item -->
-                            </div><!-- /.col-12 -->
-                            <div class="col-12">
-                                <div class="feature-item">
-                                    <div class="feature__content">
-                                        <div class="feature__icon">
-                                          <img src="/images/features/1.png"/>
-                                        </div>
-                                        <span class="feature__number">04</span>
-                                        <h4 class="feature__title">Eco-Friendly Packaging</h4>
-                                        <p class="feature__desc">Reduce your environmental impact with our eco-friendly
-                                            packaging options.</p>
-                                    </div><!-- /.feature__content -->
-
-                                </div><!-- /.feature-item -->
-                            </div><!-- /.col-12 -->
-                            <div class="col-12">
-                                <div class="feature-item">
-                                    <div class="feature__content">
-                                        <div class="feature__icon">
-                                          <img src="/images/features/1.png"/>
-                                        </div>
-                                        <span class="feature__number">05</span>
-                                        <h4 class="feature__title">Accessible For All</h4>
-                                        <p class="feature__desc">Our product is designed for everyone, no matter your
-                                            ability.</p>
-                                    </div><!-- /.feature__content -->
-
-                                </div><!-- /.feature-item -->
-                            </div><!-- /.col-12 -->
+                        <VueSlickCarousel class="feature-slider" v-bind='settings'>
+                            <div class="process-item">
+                                <span class="process__number">01</span>
+                                <div class="process__icon">
+                                    <img src="/images/features/1.png"/>
+                                </div><!-- /.process__icon -->
+                                <h4 class="process__title">Eliminates Incorrect user Techniques</h4>
+                                <p class="process__desc">Avoid common mistakes and improve your flossing skills.</p>
+                            </div><!-- /.process-item -->
+                            <div class="process-item">
+                                <span class="process__number">02</span>
+                                <div class="process__icon">
+                                    <img src="/images/features/1.png"/>
+                                </div><!-- /.process__icon -->
+                                <h4 class="process__title">Ergonomic Design</h4>
+                                <p class="process__desc">Experience comfort and ease with our ergonomically designed product.</p>
+                            </div><!-- /.process-item -->
+                            <div class="process-item">
+                                <span class="process__number">03</span>
+                                <div class="process__icon">
+                                    <img src="/images/features/1.png"/>
+                                </div><!-- /.process__icon -->
+                                <h4 class="process__title">Fast Cleaning</h4>
+                                <p class="process__desc">Quickly and easily remove plaque with our fast-acting floss.</p>
+                            </div><!-- /.process-item -->
+                            <div class="process-item">
+                                <span class="process__number">04</span>
+                                <div class="process__icon">
+                                    <img src="/images/features/1.png"/>
+                                </div><!-- /.process__icon -->
+                                <h4 class="process__title">Eco-Friendly Packaging</h4>
+                                <p class="process__desc">Reduce your environmental impact with our eco-friendly packaging options.</p>
+                            </div><!-- /.process-item -->
+                            <div class="process-item">
+                                <span class="process__number">05</span>
+                                <div class="process__icon">
+                                    <img src="/images/features/1.png"/>
+                                </div><!-- /.process__icon -->
+                                <h4 class="process__title">Accessible For All</h4>
+                                <p class="process__desc">Our product is designed for everyone, no matter your ability.</p>
+                            </div><!-- /.process-item -->
                         </VueSlickCarousel><!-- /.carousel -->
                     </div>
                 </div><!-- /.col-12 -->
@@ -125,7 +94,11 @@ export default {
     }
 }
 
-.feature-item {
+.process-item {
     height: 300px !important;
+}
+
+.feature-slider {
+    height: 300px;
 }
 </style>

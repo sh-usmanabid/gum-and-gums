@@ -14,11 +14,12 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="about__Text">
-                        <p class="mb-30" style="color: #213360;">Gum & Gums has innovated an all at once flossing device
+                        <p class="mb-30">Gum & Gums has innovated an all at once flossing device
                             which you can simply pop in & out of your mouth while seamlessly flossing all of your teeth
                             simultaneously.
                         </p>
                     </div>
+                    <p class="mb-30">Gum & Gums is a Sustainable Oral Hygiene brand that has reinvented the wheel around flossing all of your teeth simultaneously with its premier product Dr. Floss. It is the world’s first one size fits all solution. Enabling ethical sustainability, we aim to achieve this by using Biodegradable materials and Eco-friendly packaging for our products.</p>
                     <NuxtLink to="shop" class="btn btn__primary btn__rounded">
                         <span>Learn More</span>
                         <i class="icon-arrow-right"></i>

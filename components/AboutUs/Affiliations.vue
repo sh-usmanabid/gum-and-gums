@@ -5,10 +5,6 @@
     <section class="gallery pt-90 pb-60">
         <div class="heading text-center mb-40">
             <h3 class="heading__title">Accolades & Affiliations</h3>
-            <p class="heading__desc">1st place Winner of 2020 Startup Montclair State University Pitch Competition
-              <br />TIE UNIVERSITY: Best Startup Idea
-                Award 2021, 3rd Place 2022.<br>2nd place at a Statewide Collegiate competition by UPitch Nokia Bell Labs
-            </p>
         </div><!-- /.heading -->
         <div class="container">
             <div class="row">

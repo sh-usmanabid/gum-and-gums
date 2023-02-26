@@ -16,9 +16,6 @@
                             <li class="breadcrumb-item">
                                 <NuxtLink class="text-white" to="/">Home</NuxtLink>
                             </li>
-                            <li class="breadcrumb-item" v-if="pageSubHeading">
-                                <NuxtLink class="text-white" v-bind:to="'/' + pageSubHeading">{{ pageSubHeading }}</NuxtLink>
-                            </li>
                             <li class="breadcrumb-item text-white active" aria-current="page">{{ pageHeading }}</li>
                         </ol>
                     </nav>
@@ -30,7 +27,7 @@
 
 <script>
 export default {
-    props: ['pageHeading', 'pageSubHeading', 'pageDesc'],
+    props: ['pageHeading', 'pageDesc'],
     mounted() {
         $('.bg-img').each(function () {
             const imgSrc = $(this).children('img').attr('src')

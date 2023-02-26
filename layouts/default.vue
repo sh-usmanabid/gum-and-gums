@@ -21,7 +21,7 @@
                                 <NuxtLink to="/" :class="($nuxt.$route.name === 'index') ? 'nav__item-link active': 'nav__item-link'">Home</NuxtLink>
                             </li><!-- /.nav-item -->
                             <li class="nav__item has-dropdown">
-                                <NuxtLink to="/about-us" :class="($nuxt.$route.name === 'about-us') ? 'nav__item-link active': 'nav__item-link'">About Us</NuxtLink>
+                                <NuxtLink to="/about-us" :class="($nuxt.$route.name === 'about-us') ? 'nav__item-link active': 'nav__item-link'">About The Founder</NuxtLink>
                             </li><!-- /.nav-item -->
                             <li class="nav__item has-dropdown">
                                 <NuxtLink to="/shop" :class="($nuxt.$route.name === 'shop') ? 'nav__item-link active': 'nav__item-link'">Shop</NuxtLink>
@@ -51,7 +51,7 @@
             <div class="footer-primary">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-3">
+                        <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="footer-widget-about">
                                 <img src="/images/logo/logo-light.png" alt="logo" class="mb-30">
                                 <p class="color-gray">
@@ -111,7 +111,7 @@
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6 col-lg-6">
                             <span class="fz-14">&copy; 2022 Gum and Gums, All Rights Reserved. by</span>
-                            <a class="fz-14 color-primary" href="https://www.instagram.com/thesysnetic/">sysnetic</a>
+                            <a class="fz-14 color-primary" href="https://www.instagram.com/thesysnetic/">Sysnetic</a>
                         </div><!-- /.col-lg-6 -->
                     </div><!-- /.row -->
                 </div><!-- /.container -->

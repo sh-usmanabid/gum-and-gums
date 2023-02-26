@@ -27,7 +27,7 @@
                   {{blogTitle }}
                 </h1>
                 <div class="post__desc">
-                  <p>{{detailDesc}}</p>
+                  <p style="white-space: pre-wrap;">{{detailDesc}}</p>
                 </div><!-- /.blog-desc -->
               </div>
             </div><!-- /.post-item -->

@@ -8148,6 +8148,16 @@ textarea.form-control {
           box-shadow: 0 0 0 11px rgba(0, 0, 0, 0.15);
 }
 
+.popup-gallery-item img {
+  height: 100px;
+  width: 220px !important;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #DCDCDC;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px 0 #DCDCDC;
+}
+
 @media (min-width: 320px) and (max-width: 575px) {
   .gallery .slick-arrow.slick-next {
     right: 0;

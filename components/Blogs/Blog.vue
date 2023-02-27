@@ -25,3 +25,9 @@ export default {
     props: ['blogImage', 'blogTitle', 'blogDesc', 'blogLink','detailDesc']
 }
 </script>
+
+<style scoped>
+.post-item {
+    box-shadow: 0 2px 2px 0 #DCDCDC;
+}
+</style>

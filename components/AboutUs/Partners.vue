@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <VueSlickCarousel v-bind='settings'>
+                    <carousel :loop="true" :margin=20 :nav="false" :dots="false" :smartSpeed=300 :autoplay="false" :responsive="res">
                         <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-2.png">
                           <img src="/images/gallery/image-2.png" alt="gallery img" height="75">
                         </a>
@@ -29,7 +29,7 @@
                         <a class="popup-gallery-item text-center p-5" href="/images/gallery/image-18.png">
                             <img src="/images/gallery/image-18.png" alt="gallery img" height="75">
                         </a>
-                    </VueSlickCarousel><!-- /.carousel -->
+                    </carousel><!-- /.carousel -->
                 </div><!-- /.col-xl-5 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -41,17 +41,22 @@
 export default {
     data() {
         return {
-            settings: {
-                "slidesToShow": 4,
-                "slidesToScroll": 1,
-                "autoplay": true,
-                "arrows": true,
-                "dots": false,
-                "responsive": [
-                    {"breakpoint": 992, "settings": {"slidesToShow": 2}},
-                    {"breakpoint": 767, "settings": {"slidesToShow": 2}},
-                    {"breakpoint": 480, "settings": {"slidesToShow": 1}}
-                ]
+            res: {
+                0: {
+                    items: 1
+                },
+                480: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                800: {
+                    items: 4
+                },
+                1024: {
+                    items: 5
+                }
             }
         }
     }

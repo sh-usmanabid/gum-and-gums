@@ -2,7 +2,7 @@
     <!-- ========================= 
         Testimonials
     =========================  -->
-    <section class="testimonials-layout2 pt-130 pb-40">
+    <section class="testimonials-layout2 pt-130 pb-130">
       <div class="container">
         <div class="testimonials-wrapper">
           <div class="row">
@@ -13,7 +13,7 @@
               </div><!-- /.heading -->
             </div><!-- /.col-lg-5 -->
             <div class="col-sm-12 col-md-12 col-lg-7">
-              <VueSlickCarousel class="testimonial-slider" v-bind='settings'>
+              <carousel class="testimonial-slider" :loop="true" :margin=30 :nav="false" :dots="false" :smartSpeed=300 :autoplay="false" :responsive="res">
                 <!-- Testimonial #1 -->
                 <div class="testimonial-item item-1">
                   <h3 class="testimonial__title">“Flossing is difficult for most patients.  DR. FLOSS is a great alternative for those patients that have a hard time time using regular string floss.  Being that you "floss" all teeth at once, there is little to no bacteria transfer from site to site in comparison to traditional dental picks.  And it's definitely alot less time consuming.”</h3>
@@ -39,7 +39,7 @@
                         <p class="testimonial__meta-desc">DBDS Dental Surgeon & Orthodontist</p>
                     </div>
                 </div><!-- /. testimonial-item -->
-              </VueSlickCarousel><!-- /.slick-carousel -->
+              </carousel><!-- /.slick-carousel -->
             </div><!-- /.col-lg-7 -->
           </div><!-- /.row -->
         </div><!-- /.testimonials-wrapper -->
@@ -51,18 +51,23 @@
 export default {
     data() {
         return {
-            settings: {
-                "slidesToShow": 1,
-                "slidesToScroll": 1,
-                "arrows": false,
-                "dots": false,
-                "responsive": [
-                    { "breakpoint": 1200, "settings": { "slidesToShow": 1 } },
-                    { "breakpoint": 992, "settings": { "slidesToShow": 1 } },
-                    { "breakpoint": 767, "settings": { "slidesToShow": 1 } },
-                    { "breakpoint": 480, "settings": { "slidesToShow": 1 } }
-                ]
+          res: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            800: {
+                items: 1
+            },
+            1024: {
+                items: 1
             }
+          }
         }
     }
 }
@@ -74,17 +79,5 @@ export default {
   width: 100px !important;
   border-radius: 50%;
   margin-bottom: 10px;
-}
-
-.testimonials-layout2 {
-  z-index: 10;
-}
-
-.testimonial-item {
-  margin-left: -30px;
-}
-
-.testimonial-slider {
-  margin-bottom: -15em;
 }
 </style>

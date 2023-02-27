@@ -2,7 +2,7 @@
     <!-- ========================
         About Layout 1
     =========================== -->
-    <section class="about-layout1 pb-0">
+    <section class="about-layout1 pb-130 pt-130">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -41,7 +41,7 @@
 <style scoped>
 @media only screen and (min-width: 992px) {
     iframe {
-        margin-top: -100px;
+        margin-top: -80px;
     }
 }
 
@@ -49,9 +49,5 @@
     iframe {
         margin-top: 25px;
     }
-}
-
-.about-layout1 {
-    margin-bottom: 180px;
 }
 </style>

@@ -65,7 +65,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .team-layout1 {
     z-index: 100;
 }
